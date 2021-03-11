@@ -4,6 +4,8 @@
 /node_modules
 /.pnp
 .pnp.js
+.vscode
+.esLintcache
 
 # testing
 /coverage
