@@ -20,7 +20,7 @@ const Intro = () => {
       <div className="intro">
         <div className="profile-section">
           <img
-            src={process.env.PUBLIC_URL + 'img/favicon.png'}
+            src={process.env.PUBLIC_URL + '/img/favicon.png'}
             className="profile-image"
             alt="profile"
           />
