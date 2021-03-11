@@ -62,6 +62,7 @@ const Intro = () => {
             </ul>
           </div>
           <ul className="intro-right">
+            <h3>기본정보</h3>
             <li>1994.09.03</li>
             <li>010-4944-1412</li>
             <li>hdw0903@naver.com</li>
