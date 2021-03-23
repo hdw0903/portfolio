@@ -8,7 +8,7 @@ const Portfolio = () => {
       src: 'https://hdw0903.github.io/images/blog_logo.png',
       Onelineexplanation: '공부 내용을 정리하는 블로그입니다.',
       description: [
-        'Hexo Icarus테마와 GithubPages를 이용한 블로그',
+        'Hexo Icarus 테마와 GithubPages를 이용한 블로그',
         '기존 테마에서 간단하게 꾸며보고 광고도 달아봤습니다.',
       ],
     },
@@ -17,11 +17,11 @@ const Portfolio = () => {
       src:
         'https://raw.githubusercontent.com/hdw0903/search-weather/master/search-weather.png',
       Onelineexplanation:
-        '구글 위치정보 API를 이용한 도시검색으로 날씨 확인 사이트.',
+        '구글 위치정보 API를 이용한 도시 검색으로 날씨 확인 사이트.',
       description: [
         '도시명 검색으로 5일간의 날씨 정보를 알려줍니다.',
         'Google Map Geocoding API를 기반으로 검색한 도시의 위, 경도 값을 가져옵니다.',
-        '받아온 위, 경도값을 open-weather API에 전달하여 해당 하는 도시의 날씨 정보를 받아옵니다.',
+        '받아온 위, 경도 값을 open-weather API에 전달하여 해당하는 도시의 날씨 정보를 받아옵니다.',
       ],
       readme: 'https://github.com/hdw0903/search-weather',
     },
@@ -29,8 +29,11 @@ const Portfolio = () => {
       href: 'https://hdw0903.github.io/papago/',
       src:
         'https://raw.githubusercontent.com/hdw0903/papago/master/public/img/intro_img.png',
-      Onelineexplanation: '네이버 Papago API를 이용한 언어번역 사이트.',
-      description: ['Hexo Icarus테마와 GithubPages를 이용한 블로그'],
+      Onelineexplanation: '네이버 Papago API와 AWS를 이용한 언어 번역 사이트.',
+      description: [
+        '언어 감지 기능을 이용하여 한국어 입력 시 영어로, 그 외의 언어는 한국어로 변역되게 되어있습니다.',
+        '드롭 다운 내에 언어를 선택한다면 원하는 언어끼리 번역도 가능합니다.',
+      ],
       readme: 'https://github.com/hdw0903/papago',
     },
   ];

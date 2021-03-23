@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 #Portfolio {
   background: #ebeeee;
 }
@@ -10,8 +14,8 @@ h2 {
   padding-top: 10px;
   padding-bottom: 10px;
 }
-.portfolio-list {
-}
+/* .portfolio-list {
+} */
 .portfolio-list-item {
   text-align: center;
 }

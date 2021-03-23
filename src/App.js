@@ -1,4 +1,3 @@
-import Header from './components/Header';
 import Intro from './components/Intro';
 import Portfolio from './components/Portfolio';
 const appStyle = {
@@ -7,7 +6,6 @@ const appStyle = {
 function App() {
   return (
     <div className="App" style={appStyle}>
-      {/* <Header /> */}
       <Intro />
       <Portfolio />
     </div>

@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
 import './Intro.css';
-// import Nav from './Nav';
 
 const Intro = () => {
   useEffect(() => {
@@ -20,20 +19,13 @@ const Intro = () => {
       <div className="intro">
         <div className="profile-section">
           <img
-            src={process.env.PUBLIC_URL + '/img/favicon.png'}
+            src={process.env.PUBLIC_URL + '/img/blogIMG.png'}
             className="profile-image"
             alt="profile"
           />
           <b>Han Dongwon</b>
-          <div
-            id="header"
-            //   style={{
-            //     height: 400,
-            //     background: `url('${process.env.PUBLIC_URL}/img/FrontEnd.jpg')`,
-            //   }}
-          >
+          <div id="header">
             <h1 id="header-h1"></h1>
-            {/* <Nav /> */}
           </div>
           <p>끊임없이 변화하는 웹 세상 속 여러분과 함께 성장하고 싶습니다.</p>
         </div>
@@ -62,7 +54,7 @@ const Intro = () => {
             </ul>
           </div>
           <ul className="intro-right">
-            <h3>기본정보</h3>
+            <h3>기본 정보</h3>
             <li>1994.09.03</li>
             <li>010-4944-1412</li>
             <li>hdw0903@naver.com</li>
